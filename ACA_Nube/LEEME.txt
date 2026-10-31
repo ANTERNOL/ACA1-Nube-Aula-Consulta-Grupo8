@@ -6,7 +6,10 @@ Conexión, indexación y cinco consultas remotas ejecutadas por el estudiante.
 Resultados originales recibidos en consultas.zip, normalizados a UTF-8 sin
 alterar valores ni textos. Son evidencia guardada, no una nueva ejecución.
 183 fragmentos, 183 puntos, E5 multilingüe pequeño, 384 dimensiones, coseno.
-Notebook por etapas pendiente de ejecutar para conservar sus propias salidas.
+Notebook ejecutado adjunto: ACA1_Computacion_Nube_Ejecutado.ipynb.
+Sus diez celdas de código tienen salidas y no presentan errores.
+Los tiempos del póster y JSON corresponden a la primera prueba; el notebook
+conserva los tiempos de una ejecución posterior, que pueden variar.
 No se presenta una precisión validada por el grupo.
 
 INSTALACIÓN WINDOWS PYTHON 3.13
@@ -38,7 +41,9 @@ La guía permite modelos alternativos: elegimos E5 con passage: y query: en luga
 de Gemini. El mismo modelo vectoriza documentos y preguntas.
 La similitud coseno no expresa probabilidad ni garantiza pertinencia.
 
-PENDIENTES PARA ENTREGA
-Ejecutar notebook para guardar salidas. Publicar repositorio sin credenciales.
-Grabar video de 3 a 5 minutos con consulta remota. Agregar ambos enlaces al
-póster. Revisar pertinencia en grupo. El póster adjunto sigue siendo de revisión.
+ACCESOS Y EVIDENCIAS
+Repositorio: https://github.com/ANTERNOL/ACA1-Nube-Aula-Consulta-Grupo8
+Video: https://drive.google.com/file/d/1jopQQ0OOTO_7qusYO1E-ARytqn1AFrIR/view
+El notebook ejecutado conserva las salidas originales del estudiante.
+La evaluación de precisión requiere revisión humana; no se afirma una
+precisión validada. El notebook de reproducción conserva la plantilla.

@@ -1,0 +1,42 @@
+{
+  "resumen": [
+    {
+      "estudiantes": 395,
+      "promedio_G3": 10.42
+    }
+  ],
+  "por_apoyo_familiar": [
+    {
+      "famsup": "no",
+      "estudiantes": 153,
+      "promedio_G3": 10.64
+    },
+    {
+      "famsup": "yes",
+      "estudiantes": 242,
+      "promedio_G3": 10.27
+    }
+  ],
+  "por_tiempo_estudio": [
+    {
+      "studytime": 1,
+      "estudiantes": 105,
+      "promedio_G3": 10.05
+    },
+    {
+      "studytime": 2,
+      "estudiantes": 198,
+      "promedio_G3": 10.17
+    },
+    {
+      "studytime": 3,
+      "estudiantes": 65,
+      "promedio_G3": 11.4
+    },
+    {
+      "studytime": 4,
+      "estudiantes": 27,
+      "promedio_G3": 11.26
+    }
+  ]
+}

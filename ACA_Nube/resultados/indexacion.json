@@ -1,0 +1,12 @@
+{
+  "coleccion": "aula_consulta_e5_v1",
+  "fragmentos_corpus": 183,
+  "puntos_remotos": 183,
+  "dimension": 384,
+  "distancia": "Cosine",
+  "modelo": "intfloat/multilingual-e5-small",
+  "tamano_palabras": 220,
+  "solapamiento_palabras": 40,
+  "max_tokens": 366,
+  "relacion_dataset": "temática, no individual"
+}

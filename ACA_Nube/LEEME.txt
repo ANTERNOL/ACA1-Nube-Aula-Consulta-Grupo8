@@ -1,0 +1,44 @@
+AULA CONSULTA - GRUPO 8
+Integrantes: los cinco nombres completos figuran en el notebook y póster.
+
+ESTADO
+Conexión, indexación y cinco consultas remotas ejecutadas por el estudiante.
+Resultados originales recibidos en consultas.zip, normalizados a UTF-8 sin
+alterar valores ni textos. Son evidencia guardada, no una nueva ejecución.
+183 fragmentos, 183 puntos, E5 multilingüe pequeño, 384 dimensiones, coseno.
+Notebook por etapas pendiente de ejecutar para conservar sus propias salidas.
+No se presenta una precisión validada por el grupo.
+
+INSTALACIÓN WINDOWS PYTHON 3.13
+Abrir cmd en ACA_Nube.
+py -3.13 -m venv .venv
+.venv\Scripts\python.exe -m pip install -r requirements.txt
+Copiar .env.example como .env y configurar URL y clave privada del clúster.
+No compartir .env, .venv ni claves. El archivo .gitignore los excluye de Git.
+
+DEMOSTRACIÓN SIN REPETIR LA INDEXACIÓN
+.venv\Scripts\python.exe demostracion.py
+Escriba una pregunta y pulse Enter. Se consulta Qdrant remoto y se muestran
+los tres fragmentos con sus páginas y puntajes. Enter vacío termina.
+Pregunta recomendada: ¿Qué derechos tienen los estudiantes en la institución?
+La descarga/carga inicial del modelo puede tardar. Ensayar antes de grabar.
+
+RECORRIDO COMPLETO
+.venv\Scripts\python.exe proyecto.py
+Repite SQL, fragmentación, indexación y consultas. Reemplaza resultados de
+consultas por los de esta nueva ejecución. Los IDs son estables para el mismo
+corpus. Si cambia el corpus, use colección nueva para evitar puntos antiguos.
+El notebook permite ejecutar las etapas por separado.
+
+FUENTES Y ALCANCE
+Tres PDF CUN descritos en fuentes.json. Corpus académico sin certificar vigencia
+jurídica. Dataset: 395 estudiantes portugueses, sin vínculo individual con CUN.
+La relación entre SQL y documentos es temática, sin inferencia causal.
+La guía permite modelos alternativos: elegimos E5 con passage: y query: en lugar
+de Gemini. El mismo modelo vectoriza documentos y preguntas.
+La similitud coseno no expresa probabilidad ni garantiza pertinencia.
+
+PENDIENTES PARA ENTREGA
+Ejecutar notebook para guardar salidas. Publicar repositorio sin credenciales.
+Grabar video de 3 a 5 minutos con consulta remota. Agregar ambos enlaces al
+póster. Revisar pertinencia en grupo. El póster adjunto sigue siendo de revisión.
